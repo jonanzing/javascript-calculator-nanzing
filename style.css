@@ -1,0 +1,170 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(0, 0, 0) url(another.jpg) no-repeat center center / cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    overflow: hidden;
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0.3rem;
+}
+
+h1, h2 {
+    font-weight: 500;
+    margin: 0.4rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+@media(min-width:1200px){
+    h1{
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:800px){
+    .container {
+        padding: 0 1rem;
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+}
+
+@media(max-width:500px){
+    h1 {
+        font-size: 1rem;
+    }
+    h2{
+        font-size: 0.5rem;
+    }
+}
+
+h2{
+    font-size: 2rem;
+    color: #aaa;
+}
+
+.for{
+    box-shadow: 
+    0em 1.2em 1.2em rgba(0, 0, 0, 0.3),
+    inset 0em 1.2em 1.2em rgba(0, 0, 0, 0.3);
+}
+
+.center{
+    border-radius: 25px; 
+    width: 350px;
+
+    
+}
+
+
+input[type="text"]{
+    height:100px ;
+    width: 280px; ;
+    margin-top: 60px ;
+    border-radius: 8px ;
+    border: 1px solid #e1e7ea ;
+    color: rgb(255, 255, 255) ;
+    font-size: 22px;
+    font-weight: bold ;
+    text-align: right;
+    padding-right: 20px;
+    grid-column: 1 / -1;
+    background-color: rgba(0, 0, 0, .75);
+
+
+}
+
+
+form .buttons{
+    width:300px ;
+    margin:10px 25px 0px 25px ;
+    padding:10px 0px ;
+    
+}
+
+
+input[type="button"]{
+    width:45px ;
+    height: 50px;
+    margin:5px ;
+    font-size: 22px;
+    line-height: 55px;
+    border-radius: 8px;
+    border: 1px solid #d9d9d9;
+    cursor: pointer;
+    background: rgba(255, 255, 255, .75);
+}
+
+input[type="button"]:hover{
+    background: rgba(255, 255, 255, 1);    
+}
+
+input#clear{
+    background: aqua;
+    color: black;
+
+}
+
+input#equal{
+    width:230px ;
+    margin:10px 0px 10px 0px ;
+    font-size:30px ;
+    color: black ;
+    background: royalblue ;
+    border: 1px solid ;
+
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;  
+    height: auto;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;     
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
